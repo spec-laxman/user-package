@@ -15,5 +15,12 @@
         "psr-4": {
             "SpecIndia\\User\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SpectIndia\\User\\UserServiceProvider"
+            ]
+        }
     }
 }
