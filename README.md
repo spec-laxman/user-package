@@ -4,8 +4,8 @@
 
 ENV configuration
 
-- LOGIN_SUCESS_URL= redirect user after login
-- REGISTER_SUCESS_URL=redirect user after register
+- LOGIN_SUCESS_URL= <redirect user after login>
+- REGISTER_SUCESS_URL=<redirect user after register>
 
 ```p
 LOGIN_SUCESS_URL=http://127.0.0.1:8000
@@ -19,6 +19,8 @@ REGISTER_SUCESS_URL=http://127.0.0.1:8000
 php artisan migrate
 php artisan vendor:publish
 ```
+-- select "SpecIndia\User\UserServiceProvider" when prompted to  Which provider or tag's files would you like to publish?
+
 
 Happy Coding :)
 
