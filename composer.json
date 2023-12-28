@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SpectIndia\\User\\UserServiceProvider"
+                "SpecIndia\\User\\UserServiceProvider"
             ]
         }
     }
