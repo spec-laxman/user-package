@@ -1,0 +1,19 @@
+{
+    "name": "specinda/user",
+    "description": "This package create login and register process in Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laxman Parmar",
+            "email": "laxman.parmar@spec-india.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SpecIndia\\User\\": "src/"
+        }
+    }
+}
